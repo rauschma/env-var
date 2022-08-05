@@ -1,0 +1,9 @@
+{
+  "name": "@rauschma/env-var",
+  "version": "1.0.1",
+  "bin": {
+    "env-var": "./env-var.mjs"
+  },
+  "author": "Axel Rauschmayer",
+  "license": "MIT"
+}
