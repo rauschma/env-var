@@ -1,14 +1,10 @@
 # `env-var`
 
+**Warning:** This code is experimental. Use at your own risk.
+
 ## Installation
 
-If you want to use the command `env-var` in your package, you can either install this package globally:
-
-```
-npm install -g @rauschma/env-var
-```
-
-You can also install it locally:
+If you install this package locally, you will be able to use the command `env-var` in your `package.json` scripts (as shown in the next section):
 
 ```
 cd my-package/
@@ -28,7 +24,7 @@ npm install --save-dev @rauschma/env-var
 }
 ```
 
-Works on all platforms (tested on macOS and Windows):
+The following shell command works on all platforms (tested on macOS and Windows):
 
 ```
 % npm run hi
